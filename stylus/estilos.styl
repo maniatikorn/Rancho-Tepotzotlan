@@ -1,1 +1,75 @@
-estilos.styl
+@import 'normalize.styl'
+
+/*Paletra de colores*/
+
+cafefuerte = #483a3a
+cafeOscuro = #eae1c0
+CafeClaro = #f5eedb
+blanco = #ffffff
+verde = #8fb98b
+rojo = #de564b
+
+body
+	font-family Josefin Slab, serif
+	font-size 19px
+	margin 0
+	padding 0
+
+h1
+	font-size 5rem	
+
+h1
+h2
+h3
+	font-family Great Vibes, cursive
+
+header
+	background-color cafefuerte
+	color cafeOscuro
+	display inline-block
+	margin 0
+	width 100%
+	
+
+nav
+	display none
+
+nav ul li
+	display inline-block
+	margin 0 .4rem 0 0
+	padding 0 
+	text-decoration none
+
+nav ul li a
+	padding 0 1rem
+
+section
+	background-color cafeOscuro
+	display inline-block
+	margin 0
+	padding 0
+	width 100%
+
+.botonContacto
+	background-color rojo
+	border-bottom 4px solid verde
+	border-radius 5px
+	color CafeClaro
+	font-size 19px
+	padding .5rem
+
+.boton-principal
+	display inline-block
+	float right
+	margin .6rem 1rem 0 0
+
+.contenedor-general
+	width 100%
+
+.portada
+	/*background-image url('../images/cover.jpg')*/
+	background-image url('../images/cover.jpg')
+	background-position center
+    height 350px
+    background-size cover
+	-webkit-background-size cover
