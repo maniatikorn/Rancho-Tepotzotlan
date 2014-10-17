@@ -7,21 +7,30 @@
 		<link rel="icon" type="image/jpeg" href="images/icon-logo.jpg" />
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css' />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="SlickNav/slicknav.css" />
+		<script src="SlickNav/jquery.slicknav.min.js"></script>
+		<script>
+			$(function(){
+				$('#menu').slicknav();
+			});
+		</script>
 		<title>Rancho Tepotzotlán, todo para tus fiestas y eventos</title>
 	</head>
 	<body>
+		
 		<div class="contenedor-general">
 			<header>
 				<nav>
-					<ul>
+					<ul id="menu">
 						<li class="link"><a class="botonContacto" href="#">Inicio</a></li>
 						<li class="link"><a class="botonContacto" href="#">Instalaciones</a></li>
 						<li class="link"><a class="botonContacto" href="#">Servicios</a></li>
 						<li class="link"><a class="botonContacto" href="#">Banquetes</a></li>
 						<li class="link"><a class="botonContacto" href="#">Ubicacion</a></li>
+						<li class="link"><a class="botonContacto" href="#">Contacto</a></li>
 					</ul>
 				</nav>
-				<a class="botonContacto boton-principal" href="#contactanos">Contacto</a>
 			</header>
 			<section class="portada">
 				<article class="informacion">

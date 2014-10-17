@@ -49,7 +49,7 @@ h1, h2, h3
 header
 	background-color cafefuerte
 	color cafeOscuro
-	display inline-block
+	display none
 	margin 0 0
 	padding 0
 	width 100%
@@ -81,7 +81,7 @@ section article
 	background-color rgba(230, 221, 188, .6)
 	display inline-block
 	margin 1rem 0 0 0
-	padding 0
+	padding .5em 0
 	width 95%
 
 .banquetes
@@ -95,6 +95,7 @@ section article
 	font-weight 400
 	font-size 19px
 	padding .5rem
+	display inline-block
 
 .boton-principal
 	display inline-block
@@ -104,12 +105,12 @@ section article
 	position absolute
 
 .campoTexto
-	border 1.5px solid cafefuerte
+	border 1.5px solid CafeClaro
 	border-radius 10px
 	display block
 	padding .5em
 	margin .5em 0
-	width 250px
+	width 90%
 	font-size 1rem
 
 .conoce
@@ -120,6 +121,9 @@ section article
 
 .contenedor-general
 	width 100%
+	padding 0
+	margin 0
+	display inline-block
 .eventos
 	background-image url('../images/eventos-cover.jpg')
 
@@ -129,3 +133,40 @@ section article
 .servicios
 	background-image url('../images/cover.jpg')
 
+.slicknav_menu
+	background-color cafefuerte
+
+@media screen and (min-width: 700px)
+	/* #menu is the original menu 
+	.js #menu
+		display inline-block
+
+	.js .slicknav_menu
+		display none*/
+
+	body
+		font-size 1rem
+
+	h1
+		font-size 5rem
+	header
+		display inline-block
+		text-align center
+		position fixed
+		background-color rgba(72, 58, 58, .8)
+
+	section
+		height 600px
+		text-align left
+
+	section article
+		width 300px
+		margin 5rem 0 0 1rem
+		padding 1rem
+
+	.informacion
+		width 50%
+		text-align center
+
+	.slicknav_menu
+		display none
